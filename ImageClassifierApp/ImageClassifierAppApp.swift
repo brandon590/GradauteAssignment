@@ -7,9 +7,13 @@
 
 import SwiftUI
 
+// This is the main entry point of the app
+// SwiftUI starts running from here when the app launches
 @main
-struct ImageClassifierAppApp: App {
+struct ImageClassifierApp: App {
+    
     var body: some Scene {
+        // This creates the main window and loads ContentView
         WindowGroup {
             ContentView()
         }
